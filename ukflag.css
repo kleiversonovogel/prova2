@@ -63,24 +63,24 @@ body {
   margin: 3;
   padding: 3;
   height: 42rem;
-  width: 0.8rem;
+  width: 1.0rem;
   background-color: red;
   transform: rotate(140deg);
   position: absolute;
   margin-left: 1.4rem;
-  margin-top: -23.1rem;
+  margin-top: -22.1rem;
 }
 
 .xvermelho2 {
 margin: 3;
   padding: 3;
   height: 42rem;
-  width: 0.8rem;
+  width: 1.0rem;
   background-color: red;
   transform: rotate(45deg);
   position: absolute;
-  margin-left: 15.0rem;
-  margin-top: -22.0rem;
+  margin-left: 14.0rem;
+  margin-top: -21.0rem;
 }
 
 .cruz3 {
@@ -99,4 +99,4 @@ margin: 3;
   height: 30px;
   background-color: red;
   position: absolute;
-  }
+}
