@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bandeirauk.css"/>
+  <title>bandeirauk</title>
+  
+</head>
+
+<body>
+  <main>
+   <div class="flex-container">
+   <div class="cruz1"></div>
+   <div class="cruz2"></div>
+   <div class="xbranco1"></div>
+   <div class="xbranco2"></div>
+   <div class="xbranco3"></div>
+   <div class="xbranco4"></div>
+   <div class="cruz3"></div>
+   <div class="cruz4"></div>
+   <div class="diagonal1"></div>
+   <div class="diagonal2"></div>
+   <div class="diagonal3"></div>
+   <div class="diagonal4"></div>
+   </div>
+   </div>
+  </main>
+</body>
+
+</html>
