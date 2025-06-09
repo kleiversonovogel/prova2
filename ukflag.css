@@ -1,102 +1,145 @@
 body {
-  background-color: #2c2c2c;
-  font-family: arial, Helvetica, sans-serif;
-}
-
-
-.flex-container {
-  margin: 3;
-  padding: 3;
-  box-sizing: border-box;
-  width: 300px;
-  height: 200px;
-  background-color: navy;
-  position: relative;
-  overflow: hidden;
-}
-
-.cruz1 {
-  top: 0;
-  left: 7.5rem;
-  width: 50px;
-  height: 100%;
-  background-color: white;
-  position: absolute;
-}
-
-.cruz2 {
-  top: 70px;
-  left: 0px;
-  width: 300px;
-  height: 50px;
-  background-color: white;
-  position: absolute;
-}
-
-
-.xbranco3 {
-  margin: 3;
-  padding: 3;
-  height: 42rem;
-  width: 2.5rem;
-  background-color: white;
-  transform: rotate(45deg);
-  position: absolute;
-  margin-left: 1.5rem;
-  margin-top: -9.0rem;
-}
-
-.xbranco4 {
-  margin: 3;
-  padding: 3;
-  height: 42rem;
-  width: 2.5rem;
-  background-color: white;
-  transform: rotate(140deg);
-  position: absolute;
-  margin-left: 1.0rem;
-  margin-top: -22.0rem;
+    background-color: #2c2c2c;
+    font-family: arial, Helvetica, sans-serif;
+  }
   
-}
-
-.xvermelho1 {
+  
+  .flex-container {
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-color: navy;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cruz1 {
+    top: 0;
+    left: 7.5rem;
+    width: 50px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+  }
+  
+  .cruz2 {
+    top: 70px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+  }
+  
+  
+  .xbranco3 {
+    margin: 3;
+    padding: 3;
+    height: 42rem;
+    width: 2.5rem;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: -9.0rem;
+  }
+  
+  .xbranco4 {
+    margin: 3;
+    padding: 3;
+    height: 42rem;
+    width: 2.5rem;
+    background-color: white;
+    transform: rotate(140deg);
+    position: absolute;
+    margin-left: 1.0rem;
+    margin-top: -22.0rem;
+    
+  }
+  
+  .xvermelho1 {
+    margin: 3;
+    padding: 3;
+    height: 42rem;
+    width: 1.0rem;
+    background-color: red;
+    transform: rotate(140deg);
+    position: absolute;
+    margin-left: 1.4rem;
+    margin-top: -22.1rem;
+  }
+  
+  .xvermelho2 {
   margin: 3;
-  padding: 3;
-  height: 42rem;
-  width: 1.0rem;
-  background-color: red;
-  transform: rotate(140deg);
-  position: absolute;
-  margin-left: 1.4rem;
-  margin-top: -22.1rem;
-}
+    padding: 3;
+    height: 42rem;
+    width: 1.0rem;
+    background-color: red;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-left: 14.0rem;
+    margin-top: -21.0rem;
+  }
+  
+  .cruz3 {
+    top: 0;
+    left: 8rem;
+    width: 30px;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+  }
+  
+  .cruz4 {
+    top: 80px;
+    left: 0px;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+  }
 
-.xvermelho2 {
-margin: 3;
-  padding: 3;
-  height: 42rem;
-  width: 1.0rem;
-  background-color: red;
-  transform: rotate(45deg);
-  position: absolute;
-  margin-left: 14.0rem;
-  margin-top: -21.0rem;
-}
+  .diagonal1 {
+    width: 110%;
+    height: 25px;
+    margin-top: -65px;
+    top: 10%;
+    left: 10%;
+    border: 20px #ffffff;
+    transform: translate(-50%, -50%) rotate(33deg);
+    background-color: #cd2026;
+  }
 
-.cruz3 {
-  top: 0;
-  left: 8rem;
-  width: 30px;
-  height: 100%;
-  background-color: red;
-  position: absolute;
-}
+  .diagonal2 {
+    width: 80%;
+    height: 25px;
+    margin-top: 351px;
+    margin-left: 640px;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(33deg);
+    background-color: #cd2026;
+  }
 
-.cruz4 {
-  top: 80px;
-  left: 0px;
-  width: 300px;
-  height: 30px;
-  background-color: red;
-  position: absolute;
-}
+  .diagonal3 {
+    margin-top: 50px;
+    width: 280%;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    background-color: #ffffff;
+  }
+
+  .diagonal4 {
+    width: 60%;
+    height: 25px;
+    margin-top: -488px;
+    margin-left: 560px;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    background-color: #cd2026;
+  }
